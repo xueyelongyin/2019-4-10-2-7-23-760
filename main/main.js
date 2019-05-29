@@ -2,7 +2,7 @@ module.exports = function main(inputs) {
     // write your code here...
 	disp=distance(inputs['distance']);//distance price
 	timp=inputs['parkTime']*0.25;//wait price
-	price=Math.round(disp+timp//sum price
+	price=Math.round(disp+timp);//sum price
     return price;
 };
 
