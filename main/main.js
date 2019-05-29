@@ -7,7 +7,6 @@ module.exports = function main(inputs) {
 };
 
 function distance(dis){
-	console.log(0<dis<=2);
 	if(0<dis&&dis<=2){
 		pri=6;
 	}else if(2<dis&&dis<8){
