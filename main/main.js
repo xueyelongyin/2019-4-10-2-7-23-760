@@ -8,7 +8,7 @@ module.exports = function main(inputs) {
 
 function distance(dis){
 	var price=0;
-	if(0<dis<=2)){
+	if(0<dis<=2){
 		price=6;
 	}else if(2<dis<8){
 		price=6+(dis-2)*0.8;
